@@ -25,3 +25,8 @@ RUN pip3 install -r requirements.txt
 ENTRYPOINT ["streamlit", "run", "streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
 # /home/sangram/Downloads/hello-main/Hello.py
+
+
+## commands to run
+# sudo docker build -t streamlit .
+# sudo docker run -p 8501:8501 streamlit
